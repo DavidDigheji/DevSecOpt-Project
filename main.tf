@@ -4,8 +4,8 @@ provider "aws" {
 resource "aws_s3_bucket" "s3bucket-terraform-project" {
   bucket = "s3bucket-terraform-project"
 }
-resource "aws_s3_bucket" "s3bucket-terraform-project" {
-  bucket = "s3bucket-terraform-project"
+resource "aws_s3_bucket" "s3bucket-terraform-project26" {
+  bucket = "s3bucket-terraform-project26"
 }
 terraform {
   backend "s3" {
