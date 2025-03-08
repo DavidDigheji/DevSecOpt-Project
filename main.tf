@@ -12,5 +12,6 @@ terraform {
     bucket = "s3bucket-terraform-project"
     key    = "global/s3/terraform.tfstate"
     region = "eu-west-2"
+ 
   }
 }
